@@ -1,0 +1,55 @@
+body{
+    background-image:url(./assets/blue-background-7470781_1920.jpg);
+    background-size: 100vw 100vh;
+    overflow: hidden;
+    color:rgb(234, 235, 191);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+.block{
+    background-color: red;
+    border-radius: 20px;    
+    height:100px;
+    width:100px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    border:5px double black;
+}
+.ground-object{
+    position:absolute;
+    bottom:0px;
+    width: 100vw;
+    background-color: green;
+    height:50px;
+    border-top: 5px solid darkgreen;
+}
+.controller{
+    width:300px;
+    height:210px;
+    background-color: black;
+    border:5px solid white;
+    border-radius: 20px;
+    position: relative;
+    padding:20px;
+}
+.spaceup{
+    margin-top: 5px;
+}
+#flexset{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#toggle{
+    margin-right:-20px;
+}
+.saveit{
+    margin-bottom: 2px;
+}
+.numberfield{
+    background-color: black;
+    color: wheat;
+    width:40px;
+}

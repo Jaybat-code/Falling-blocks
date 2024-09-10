@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="controller" id="controller">
+        <fieldset id="flexset">
+            <legend >Block Size (5-500)</legend>
+            <input class="numberfield" type="number" min="5" max="500"> Block Height
+            <input class="numberfield" type="number" min="5" max="500"> Block Width
+        </fieldset>
+        <fieldset fieldset id="flexset" class="spaceup">
+            <legend>Gravity (1-10)</legend>
+            <input class="numberfield" type="number" min="1" max="10"> World Gravity
+            <input class="numberfield" type="number" min="1" max="10"> Block Density
+        </fieldset>
+        <fieldset class="spaceup" id="flexset">
+            <legend>Spawn Options</legend>
+            <button>Spawn Random</button>
+            <span id="toggle">Disabled</span><button>Spawn Onclick</button>
+        </fieldset>
+        <fieldset class="saveit" id="flexset">
+            <legend>Save Changes</legend>
+            <button>Save Changes</button>
+            <button>Revert To Default</button>
+        </fieldset>
+
+    </div>
+    <div class="block" id="testblock-1"></div>
+
+    <div class="ground-object" id="ground-level"></div>
+    <script src="app.js"></script>
+</body>
+</html>
