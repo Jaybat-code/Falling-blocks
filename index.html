@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Falling Blocks</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="controller" id="controller">
         <fieldset id="flexset">
             <legend >Block Size (5-500)</legend>
-            <input class="numberfield" type="number" min="5" max="500"> Block Height
-            <input class="numberfield" type="number" min="5" max="500"> Block Width
+            <input id="blockheight" class="numberfield" type="number" min="5" max="500"> Block Height
+            <input id="blockwidth" class="numberfield" type="number" min="5" max="500"> Block Width
         </fieldset>
         <fieldset fieldset id="flexset" class="spaceup">
             <legend>Gravity (1-10)</legend>
@@ -30,7 +30,7 @@
         </fieldset>
 
     </div>
-    <div class="block" id="testblock-1"></div>
+    <div class="block" id="testblock"></div>
 
     <div class="ground-object" id="ground-level"></div>
     <script src="app.js"></script>
